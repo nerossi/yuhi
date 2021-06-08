@@ -1,0 +1,366 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Pen+Script&display=swap");
+@font-face {
+  font-family: Amarillo;
+  src: url(/fonts/Amarillo.woff) format("woff");
+}
+
+@font-face {
+  font-family: Cafe24Dongdong;
+  src: url(/fonts/Cafe24Dongdong.woff) format("woff");
+}
+
+@font-face {
+  font-family: Cafe24Oneprettynight;
+  src: url(/fonts/Cafe24Oneprettynight.woff) format("woff");
+}
+
+@font-face {
+  font-family: Cafe24Shiningstar;
+  src: url(/fonts/Cafe24Shiningstar.woff) format("woff");
+}
+
+@font-face {
+  font-family: Hello;
+  src: url(/fonts/Hello.woff) format("woff");
+}
+
+@font-face {
+  font-family: JennaSue;
+  src: url(/fonts/JennaSue.woff) format("woff");
+}
+
+@font-face {
+  font-family: OdBestFreind;
+  src: url(/fonts/OdBestFreind.woff) format("woff");
+}
+
+@font-face {
+  font-family: OdVanillaromance;
+  src: url(/fonts/OdVanillaromance.woff) format("woff");
+}
+
+@font-face {
+  font-family: SDMiSaeng;
+  src: url(/fonts/SDMiSaeng.woff) format("woff");
+}
+
+@font-face {
+  font-family: StartingDEMO;
+  src: url(/fonts/StartingDEMO.woff) format("woff");
+}
+
+@font-face {
+  font-family: THEsuperpower;
+  src: url(/fonts/THEsuperpower.woff) format("woff");
+}
+
+@font-face {
+  font-family: THEharu;
+  src: url(/fonts/THEharu.woff) format("woff");
+}
+
+@font-face {
+  font-family: THEFACESHOP-INKLIPQUID;
+  src: url(/fonts/THEFACESHOP-INKLIPQUID.woff) format("woff");
+}
+
+@font-face {
+  font-family: TYPEFont26;
+  src: url(/fonts/TYPEFont26.woff) format("woff");
+}
+
+@font-face {
+  font-family: TYPEFont42;
+  src: url(/fonts/TYPEFont42.woff) format("woff");
+}
+
+@font-face {
+  font-family: TYPEFont71;
+  src: url(/fonts/TYPEFont71.woff) format("woff");
+}
+
+@font-face {
+  font-family: TYPEFont75;
+  src: url(/fonts/TYPEFont75.woff) format("woff");
+}
+
+@font-face {
+  font-family: TYPEFont94;
+  src: url(/fonts/TYPEFont94.woff) format("woff");
+}
+
+@font-face {
+  font-family: TYPEFont107;
+  src: url(/fonts/TYPEFont107.woff) format("woff");
+}
+
+@font-face {
+  font-family: UhBee-MiMi-Bold;
+  src: url(/fonts/UhBee-MiMi-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: OdKongddukBingsu;
+  src: url(/fonts/OdKongddukBingsu.woff) format("woff");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Gothic A1', Arial, Helvetica, sans-serif;
+}
+
+.yellow-font {
+  color: #fff9b1 !important;
+}
+
+body {
+  color: white;
+  font-weight: 100;
+}
+
+body > .background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F2D1D2), to(#da5883));
+  background: linear-gradient(#F2D1D2 0%, #da5883 100%);
+}
+
+body > .background:after {
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+body > div {
+  width: 100%;
+  height: 100%;
+}
+
+body > div > .container {
+  height: 100%;
+}
+
+body > div > .container > .header-bar {
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: 'Jua';
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body > div > .container > .header-bar > .logo {
+  font-size: 72px;
+}
+
+body > div > .container > .header-bar > .text {
+  font-size: 36px;
+}
+
+#rs {
+  height: 150px;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.main-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-page > .main-section {
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.main-page > .main-section img {
+  margin: 0 30px;
+  width: 40%;
+}
+
+.main-page > .main-section img:first-child {
+  margin-left: 0;
+}
+
+.main-page > .main-section img:last-child {
+  margin-right: 0;
+}
+
+.main-page > .black-grid {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main-page .section-grid {
+  width: 900px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.main-page .section-grid > .design-grid-option {
+  margin-bottom: 15px;
+}
+
+.main-page .section-grid > .design-grid-option > .font-select {
+  width: 200px;
+  padding: 10px 10px;
+  border: 1px solid #FFC;
+  border-radius: 5px;
+}
+
+.main-page .section-grid > .design-grid-option > .sub {
+  font-size: 12px;
+  float: right;
+}
+
+.main-page .section-grid > .design-grid-text > .t-area {
+  text-align: center;
+  padding: 20px;
+  line-height: 36px;
+  resize: none;
+  width: 100%;
+  height: 150px;
+  font-size: 18px;
+  border: 1px solid #FFC;
+  border-radius: 5px;
+}
+
+.main-page .section-grid > .title {
+  color: #fff9b1 !important;
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 0px 0px 1px #000;
+  font-family: 'Jeju Gothic';
+}
+
+.main-page .section-grid > .content {
+  padding: 15px 0;
+  color: #fff;
+}
+
+.main-page .section-grid > .content > .flex-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  bottom: -25px;
+}
+
+.main-page .section-grid > .content > .flex-around > img {
+  -webkit-filter: drop-shadow(0px 1px 1px #fff);
+          filter: drop-shadow(0px 1px 1px #fff);
+  height: 40px;
+  width: auto;
+}
+
+.main-page .section-grid > .content > .flex-around > .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  color: #000;
+  width: 30%;
+  text-align: center;
+  margin: 0px 15px 0px 15px;
+  height: 50px;
+  font-weight: bold;
+  -webkit-filter: drop-shadow(0px 2px 1px #090909);
+          filter: drop-shadow(0px 2px 1px #090909);
+  border-radius: 10px;
+}
+
+.main-page .section-grid > .content > .copyright {
+  text-align: center;
+  color: white;
+  font-family: 'Jeju Gothic';
+  text-shadow: 0px 1px #000;
+}
+
+.main-page .section-grid > .content > .s-text {
+  font-size: 14px;
+}
+
+.main-page .section-grid > .content > .reward div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+}
+
+.main-page .section-grid > .content > .reward div > .number {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 0;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+}
+
+.table tr td {
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.table tr td:last-child {
+  border-right: 0;
+}
+
+.table tr:last-child td {
+  border-bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */
